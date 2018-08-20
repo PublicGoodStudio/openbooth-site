@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Walsheim Regular";
+  src: url("../fonts/GT-Walsheim-Regular.woff2") format("woff2"),
+       url("../fonts/GT-Walsheim-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Walsheim Medium";
+  src: url("../fonts/GT-Walsheim-Medium.woff2") format("woff2"),
+       url("../fonts/GT-Walsheim-Medium.woff") format("woff");
+}
+
+html {
+  font-size: 11px;
+  font-family: 'Walsheim Regular', sans-serif;
+}
+
+video {
+  max-width: 100%;
+  height: 80vh;
+  margin-left: -15px;
+}
+
+
+button {
+  border: 1px red solid;
+  background: #fff;
+  color: red;
+}
+
+h1 {
+  font-family: 'Walsheim Medium', sans-serif;
+  font-size: 2.5rem;
+  margin-top: -2rem;
+}
+
+h2 {
+  font-family: 'Walsheim Regular', sans-serif;
+  font-size: 2.5rem;
+  margin-top: 4rem;
+  margin-bottom: 1.4rem;
+}
+
+img {
+  max-width: 100%;
+  margin-left: -15px;
+}
+
+
+p {
+  text-align: justify;
+}
+
+.side-desc {
+  align-items: flex-end;
+  display: flex;
+}
+
+.side-desc, .top-desc {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.top-desc img {
+  margin-top: 0;
+}
+
+.side-desc p, .top-desc p {
+  text-align: left;
+}
+
+.top-desc .col-6 {
+  padding-left: 30px;
+}
+
+.big-paragraph {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.logo {
+  padding: 15px;
+}
