@@ -1,13 +1,11 @@
 @font-face {
   font-family: "Walsheim Regular";
-  src: url("../fonts/GT-Walsheim-Regular.woff2") format("woff2"),
-       url("../fonts/GT-Walsheim-Regular.woff") format("woff");
+  src: url("../fonts/GT-Walsheim-Regular.woff2") format("woff2"), url("../fonts/GT-Walsheim-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "Walsheim Medium";
-  src: url("../fonts/GT-Walsheim-Medium.woff2") format("woff2"),
-       url("../fonts/GT-Walsheim-Medium.woff") format("woff");
+  src: url("../fonts/GT-Walsheim-Medium.woff2") format("woff2"), url("../fonts/GT-Walsheim-Medium.woff") format("woff");
 }
 
 html {
@@ -17,35 +15,37 @@ html {
 
 video {
   max-width: 100%;
-  height: 80vh;
   margin-left: -15px;
 }
 
+#intro-vid {
+  margin-top: 8rem;
+}
 
 input {
   border: 1px red solid;
   background: #fff;
   color: red;
+  margin-bottom:8rem;
 }
 
 h1 {
   font-family: 'Walsheim Medium', sans-serif;
   font-size: 2.5rem;
-  margin-top: -2rem;
+  margin-top:2rem;
 }
 
 h2 {
   font-family: 'Walsheim Regular', sans-serif;
   font-size: 2.5rem;
-  margin-top: 4rem;
-  margin-bottom: 1.4rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 img {
   max-width: 100%;
   margin-left: -15px;
 }
-
 
 p {
   text-align: justify;
@@ -57,8 +57,8 @@ p {
 }
 
 .side-desc, .top-desc {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .top-desc img {
@@ -80,4 +80,20 @@ p {
 
 .logo {
   padding: 15px;
+}
+
+.contact-footer {
+  margin-top: 12rem;
+  margin-bottom: 6rem;
+  padding: 2rem 0;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+
+.bw {
+  filter: grayscale(100%);
+}
+
+#buy-a-booth img {
+  margin-bottom: 2rem;
 }
