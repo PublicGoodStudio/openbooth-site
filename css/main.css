@@ -111,6 +111,10 @@ p {
   background-color: #b6e2e9;
 }
 
+.contact-footer p {
+  text-align: center;
+}
+
 .contact-footer .row {
   padding-top: 1rem;
   max-width: 640px;
