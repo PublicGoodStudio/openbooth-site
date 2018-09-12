@@ -10,10 +10,12 @@
 
 html {
   font-size: 13px;
-  max-width: 640px;
   font-family: 'Walsheim Regular', sans-serif;
-  margin: auto;
+}
 
+.body-container {
+    max-width: 640px;
+    margin: auto;
 }
 
 video {
@@ -101,13 +103,21 @@ p {
 }
 
 .logo {
-  padding-top: 4rem;
   margin-bottom: 4rem;
   max-width: 90%;
 }
 
 .contact-footer {
-  margin-top: 12rem;
-  padding: 1rem 0;
   background-color: #b6e2e9;
+}
+
+.contact-footer .row {
+  padding-top: 1rem;
+  max-width: 640px;
+  margin: auto;
+  margin-top: 10rem;
+}
+
+.middle-img-desc {
+  margin-bottom: 0;
 }
