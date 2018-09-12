@@ -32,7 +32,7 @@ video {
 }
 
 input, .buy-button {
-  border: 1px #ee2348 solid;
+  border: 2px #ee2348 solid;
   border-radius: 0;
   background: #fff;
   color: #ee2348;
@@ -45,6 +45,7 @@ input, .buy-button {
 
 .button_container {
   margin-bottom: 2rem;
+  text-align: center;
 
 }
 
@@ -103,8 +104,9 @@ p {
 }
 
 .logo {
-  margin-bottom: 4rem;
-  max-width: 90%;
+  max-width: 85%;
+  margin:auto;
+  margin-top: 2rem;
 }
 
 .contact-footer {
