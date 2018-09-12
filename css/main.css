@@ -18,11 +18,10 @@ html {
 
 video {
   max-width: 100%;
-  max-height: 600px;
 }
 
 #intro-vid {
-  margin-top: 6rem;
+  margin-top: 1rem;
 
 }
 
@@ -31,9 +30,10 @@ video {
 }
 
 input, .buy-button {
-  border: 1px red solid;
+  border: 1px #ee2348 solid;
+  border-radius: 0;
   background: #fff;
-  color: red;
+  color: #ee2348;
   margin-bottom:6rem;
   margin-top:1rem;
   padding: .8rem;
@@ -41,6 +41,14 @@ input, .buy-button {
   font-size: 1.2rem;
 }
 
+.button_container {
+  margin-bottom: 2rem;
+
+}
+
+a {
+  color: #ee2348;
+}
 
 
 h1 {
@@ -61,11 +69,16 @@ img {
 }
 
 p {
-  text-align: justify;
+  text-align: left;
 }
 
 .side-desc {
   align-items: flex-end;
+  display: flex;
+}
+
+.side-desc-logo {
+  align-items: flex-flex-start;
   display: flex;
 }
 
@@ -88,17 +101,13 @@ p {
 }
 
 .logo {
-  padding: 15px;
+  padding-top: 4rem;
+  margin-bottom: 4rem;
+  max-width: 90%;
 }
 
 .contact-footer {
   margin-top: 12rem;
-  margin-bottom: 6rem;
-  padding: 2rem 0;
-  border-top: 1px solid #666;
-  border-bottom: 1px solid #666;
-}
-
-#buy-a-booth img {
-  margin-bottom: 2rem;
+  padding: 1rem 0;
+  background-color: #b6e2e9;
 }
