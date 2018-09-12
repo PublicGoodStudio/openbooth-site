@@ -12,6 +12,8 @@ html {
   font-size: 13px;
   max-width: 640px;
   font-family: 'Walsheim Regular', sans-serif;
+  margin: auto;
+
 }
 
 video {
@@ -24,12 +26,22 @@ video {
 
 }
 
-input {
+.full-go-big {
+  max-height: none;
+}
+
+input, .buy-button {
   border: 1px red solid;
   background: #fff;
   color: red;
   margin-bottom:6rem;
+  margin-top:1rem;
+  padding: .8rem;
+  font-family: 'Walsheim Medium', sans-serif;
+  font-size: 1.2rem;
 }
+
+
 
 h1 {
   font-family: 'Walsheim Medium', sans-serif;
@@ -85,10 +97,6 @@ p {
   padding: 2rem 0;
   border-top: 1px solid #666;
   border-bottom: 1px solid #666;
-}
-
-.bw {
-  filter: grayscale(100%);
 }
 
 #buy-a-booth img {
