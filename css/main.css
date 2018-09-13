@@ -32,6 +32,7 @@ video {
 }
 
 input, .buy-button {
+  cursor: pointer;
   border: 2px #ee2348 solid;
   border-radius: 0;
   background: #fff;
@@ -46,10 +47,19 @@ input, .buy-button {
 .button_container {
   margin-bottom: 2rem;
   text-align: center;
+}
 
+#intro-button {
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+  text-align: left;
 }
 
 a {
+  color: #ee2348;
+}
+
+a:hover {
   color: #ee2348;
 }
 
@@ -64,7 +74,7 @@ h2 {
   font-family: 'Walsheim Regular', sans-serif;
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 img {
