@@ -3,7 +3,8 @@ html {
 }
 
 #intro-vid {
-  max-width: 60%;
+  max-width: 66%;
+  max-height: 500px;
 }
 
 .contact-footer .row {
