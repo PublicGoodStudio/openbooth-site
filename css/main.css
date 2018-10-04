@@ -44,9 +44,22 @@ input, .buy-button {
   font-size: 1.2rem;
 }
 
+input, .buy-button:hover {
+  border: 2px #ee2348 solid;
+  background: #fef0f2;
+  color: #ee2348;
+  text-decoration: none;
+}
+
 .button_container {
   margin-bottom: 2rem;
   text-align: center;
+}
+
+.navbar .button_container {
+  margin-bottom: 0;
+  text-align: center;
+  float: right;
 }
 
 #intro-button {
@@ -61,7 +74,7 @@ a {
 
 a:hover {
   color: #ee2348;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 
@@ -137,4 +150,62 @@ p {
 
 .middle-img-desc {
   margin-bottom: 0;
+}
+
+.navbar {
+  background-color: #b6e2e9;
+  padding: 0 1.25rem;
+}
+
+.logo-nav{
+  font-family: 'Walsheim Medium', sans-serif;
+  font-size: 1.2rem;
+}
+
+.logo-nav:hover {
+  color: #ee2348;
+}
+
+.logo-nav:active {
+  color: #ee2348;
+  text-decoration: none;
+}
+
+.navbar-dark .navbar-brand {
+  color: #000;
+}
+
+.navbar-toggler {
+    padding: .25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0;
+  }
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ee2348;
+  font-size: 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ee2348;
+  text-decoration: underline;
+}
+
+.nav-item {
+  color: #ee2348;
+}
+
+@media (min-width: 576px) {
+  .nav-item {
+    padding-left: 1rem;
+  }
+  .nav-item:last-of-type {
+    padding-right: 1rem;
+  }
 }
