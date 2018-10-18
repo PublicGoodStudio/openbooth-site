@@ -93,7 +93,7 @@
         <h1>OpenBooth</h1>
         <p class="big-paragraph">enables people to conduct private audio and video calls in open environments</p>
         <div id="intro-button">
-          <a href="https://goo.gl/forms/1rXSmJ3dh7kfOEDs1"  class="buy-button">Buy a booth</a>
+          <a href="#buy-a-booth" class="buy-button">Buy a booth</a>
         </div>
       </div>
     </div> <!--/row-->
@@ -162,17 +162,17 @@
 
     <div class="row feature-row">
       <div class="col-12">
-        <img src="img/skeleton-web.jpg" alt="Skeletonized walls increase the air gap and quiet noisy environments">
+        <img src="img/outro-web.jpg" alt="Bar height desk allows for seated or standing configurations">
       </div>
       <div class="col-6"></div>
       <div class="col-6">
-        <p class="">Skeletonized wall construction increase focus and privacy</p>
+        <p class="">Bar height desk allows for seated or standing configurations</p>
       </div>
     </div>
 
     <div class="row feature-row">
       <div class="col-12">
-        <img src="img/board-web.jpg" alt="Skeletonized walls increase the air gap and quiet noisy environments">
+        <img src="img/board-web.jpg" alt="A magnetic, glass whiteboard encourages notes and sketches">
       </div>
       <div class="col-6">
         <p class="">A magnetic, glass whiteboard encourages notes and sketches</p>
@@ -280,7 +280,7 @@
           <input type="radio" name="door" id="door-include" value="include" class="form-radio" checked />
           <label for="door-include">Sound isolating, double paned door</label>
           <input type="radio" name="door" id="door-no-include" value="no-include"/>
-          <label for="door-no-include">No door | subtract $600</label>
+          <label for="door-no-include">No door <span class="price-details">-$600</span></label>
         </fieldset>
 
         <p class="rb-label">Finish</p>
@@ -288,7 +288,7 @@
           <input type="radio" name="finish" id="finish-birch" value="birch" checked />
           <label for="finish-birch">Birch</label>
           <input type="radio" name="finish" id="finish-walnut" value="walnut"/>
-          <label for="finish-walnut">Walnut + $600</label>
+          <label for="finish-walnut">Walnut <span class="price-details">+$600</span></label>
         </fieldset>
 
         <p class="rb-label">Seating</p>
@@ -296,9 +296,9 @@
           <input type="radio" name="seating" id="seating-no-seat" value="no_seat" checked />
           <label for="seating-no-seat">No stool</label>
           <input type="radio" name="seating" id="seating-blue" value="blue"/>
-          <label for="seating-blue">Matching bar stool + $300</label>
+          <label for="seating-blue">Matching bar stool <span class="price-details">+$300</span></label>
         </fieldset>
-        <p class="big-price">$2,900</p>
+        <p class="big-price">$3,900</p>
       </div>
 
     </div>
@@ -307,12 +307,27 @@
         <p>Lighting, ventilation, and a magnetic whiteboard are standard in all booths. Shipping included.</p>
       </div>
       <div class="col-6">
-        <div class="button_container">
-          <a href="https://goo.gl/forms/1rXSmJ3dh7kfOEDs1" class="buy-button" target="_blank">Buy a booth</a>
-        </div>
+
+
+
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_xclick">
+          <input type="hidden" name="business" value="D7364AHB64R7J">
+          <input type="hidden" name="lc" value="US">
+          <input type="hidden" name="item_name" value="OpenBooth">
+          <input type="hidden" name="item_number" value="openbooth-skel">
+          <input type="hidden" name="button_subtype" value="services">
+          <input type="hidden" name="no_note" value="0">
+          <input type="hidden" name="cn" value="Add special instructions to the seller:">
+          <input type="hidden" name="no_shipping" value="2">
+          <input type="hidden" name="undefined_quantity" value="1">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="amount" value="2900.00">
+          <input type="hidden" name="bn" value="PP-BuyNowBF:ppbutton.png:NonHosted">
+          <input type="image" src="https://s3.amazonaws.com/misc-img/ppbutton.png" border="0" name="submit" alt="Checkout with PayPal">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
       </div>
-
-
     </div>
   </div> <!--/container-fluid-->
 
@@ -333,5 +348,4 @@
     </div>
   </div> <!--/container-fluid-->
 </body>
-
 </html>

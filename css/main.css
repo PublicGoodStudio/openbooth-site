@@ -219,13 +219,7 @@ p {
 
 .rb-label {
   font-family: 'Walsheim Medium', sans-serif;
-  font-size: 1.2rem;
   margin: 0;
-}
-
-.rb-label {
-  font-family: 'Walsheim Medium', sans-serif;
-  font-size: 1.2rem;
   margin: 2rem 0 .3rem 0;
 }
 
@@ -248,6 +242,16 @@ input[type=radio]:checked + label {
   padding-left: 2rem;
 }
 
+input[type=image] {
+	max-width: 125px;
+}
+
 #buy-a-booth {
   margin-bottom: 1rem;
+}
+
+
+.price-details {
+  color: #777;
+  padding-left: .3rem;
 }

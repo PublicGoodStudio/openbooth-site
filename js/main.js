@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 
   $(document).on('click', 'input', function (event) {
-    var total = 2900;
+    var total = 3900;
 
     if ($('input[name=door]:checked').val() === 'no-include') {
       total-=600;
@@ -37,5 +37,8 @@ $(document).ready(function() {
       total+=300;
     }
 
-    $('.big-price').text('$' + parseFloat(total, 10).toFixed().replace(/(\d)(?=(\d{3})+)/g, "$1,").toString());;
+    $('.big-price').text('$' + parseFloat(total, 10).toFixed().replace(/(\d)(?=(\d{3})+)/g, "$1,").toString());
+    $('.big-price').text('$' + parseFloat(total, 10).toFixed().replace(/(\d)(?=(\d{3})+)/g, "$1,").toString());
+    $('input[name=amount]').val(total);
+
   });
