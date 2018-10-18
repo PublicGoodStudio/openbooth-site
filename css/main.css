@@ -234,12 +234,14 @@ label {
 	display: block;
 	padding-left: 2rem;
   margin-bottom: 0;
+  cursor: pointer;
 }
 
 input[type=radio]:checked + label {
 	background: url('../img/radio-selected.png') left center no-repeat;
   background-size: 1rem;
   padding-left: 2rem;
+  cursor: pointer;
 }
 
 input[type=image] {
