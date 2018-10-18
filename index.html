@@ -40,6 +40,7 @@
 
   <script src=js/vendor/jquery-3.3.1.min.js></script>
   <script src=js/vendor/bootstrap.min.js></script>
+  <script src=js/main.js></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126057544-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -50,29 +51,6 @@
   </script>
 
 
-  <script>
-
-  $(document).on('click', 'a[href^="#"]', function (event) {
-    event.preventDefault();
-    $('html, body').animate({
-        scrollTop: $($.attr(this, 'href')).offset().top
-    }, 100);
-  });
-
-  $(document).ready(function() {
-    var nav = $('.navbar');
-    nav.hide();
-    $(function () {
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 30) {
-                nav.fadeIn(200);
-            } else {
-                nav.fadeOut(300);
-            }
-        });
-      });
-    });
-  </script>
 </head>
 
 <body id="topview">
@@ -289,62 +267,52 @@
     </div>
 
     <div class="row">
-      <div class="col-12" id="buy-a-booth">
+      <div class="col-12" id="buy-a-booth" >
         <h2>Buy a booth</h2>
       </div>
-      <div class="col-12">
-        <img src="img/outro-web.jpg" alt="buy an openbooth">
-      </div>
-    </div> <!--/row-->
 
-    <div class="row side-desc feature-row">
-      <!--<div class="col-6">Door</div>
-      <div class="col-6">
-        <select id="door-select">
-            <option value="nodoor">No door (an open booth)</option>
-            <option value="walnut">Sound isolating, double paned door | add $700</option>
-        </select>
+      <div class="col-xs-12 col-sm-6">
+        <img src="img/booth-buy.jpg" alt="buy an openbooth">
       </div>
-      <div class="col-6">Exterior finish</div>
-      <div class="col-6">
-        <select id="finish-select">
-            <option value="balticbirch">Baltic Birch</option>
-            <option value="walnut">Walnut | add $400</option>
-            <option value="bamboo">Bamboo | add $700</option>
-        </select>
+      <div class="col-xs-12 col-sm-6">
+        <p class="rb-label">Door</p>
+        <fieldset>
+          <input type="radio" name="door" id="door-include" value="include" class="form-radio" checked />
+          <label for="door-include">Sound isolating, double paned door</label>
+          <input type="radio" name="door" id="door-no-include" value="no-include"/>
+          <label for="door-no-include">No door | subtract $600</label>
+        </fieldset>
+
+        <p class="rb-label">Finish</p>
+        <fieldset>
+          <input type="radio" name="finish" id="finish-birch" value="birch" checked />
+          <label for="finish-birch">Birch</label>
+          <input type="radio" name="finish" id="finish-walnut" value="walnut"/>
+          <label for="finish-walnut">Walnut + $600</label>
+        </fieldset>
+
+        <p class="rb-label">Seating</p>
+        <fieldset>
+          <input type="radio" name="seating" id="seating-no-seat" value="no_seat" checked />
+          <label for="seating-no-seat">No stool</label>
+          <input type="radio" name="seating" id="seating-blue" value="blue"/>
+          <label for="seating-blue">Matching bar stool + $300</label>
+        </fieldset>
+        <p class="big-price">$2,900</p>
       </div>
-      <div class="col-6">Stool</div>
+
+    </div>
+    <div class="row side-desc buy-button-row">
       <div class="col-6">
-        <select id="stool-select">
-            <option value="standing">No stool</option>
-            <option value="blue">blue top | add $300</option>
-            <option value="orange">orange top | add $300</option>
-        </select>
-      </div>
-      <div class="col-6">Shipping</div>
-      <div class="col-6">
-        <select id="shipping-select">
-            <option value="shipto">Shipping included to North America</option>
-            <option value="local">Visit the studio and leave with a booth, subtract $350.00</option>
-        </select>
-      </div>
-      <div class="col-6">Quantity</div>
-      <div class="col-6">
-        <select id="quantity-select">
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-            <option value="4">Four</option>
-        </select>
-      </div>-->
-      <div class="col-6">
-        <p>OpenBooths start at $3,700. You configure the booth's options, à la carte.</p>
+        <p>Lighting, ventilation, and a magnetic whiteboard are standard in all booths. Shipping included.</p>
       </div>
       <div class="col-6">
         <div class="button_container">
           <a href="https://goo.gl/forms/1rXSmJ3dh7kfOEDs1" class="buy-button" target="_blank">Buy a booth</a>
         </div>
       </div>
+
+
     </div>
   </div> <!--/container-fluid-->
 

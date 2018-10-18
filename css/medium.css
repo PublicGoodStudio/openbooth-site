@@ -12,3 +12,20 @@ html {
   padding-top: 2rem;
   padding-bottom: 1rem;
 }
+
+.rb-label {
+margin: 0;
+}
+.rb-label:not(:first-of-type)
+{
+    margin-top: 2rem;
+}
+
+.big-price {
+  font-size: 2.5rem;
+  margin-top: 4rem;
+}
+
+.buy-button-row {
+  margin-top: 2rem;
+}
