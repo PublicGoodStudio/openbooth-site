@@ -212,12 +212,11 @@ p {
 
 .big-price {
   font-size: 2rem;
-  margin: 2rem 0;
+  margin: 2rem 0 0 0;
 }
 
 .rb-label {
   font-family: 'Walsheim Medium', sans-serif;
-  margin: 0;
   margin: 2rem 0 .3rem 0;
 }
 
@@ -250,8 +249,15 @@ input[type=image] {
   margin-bottom: 1rem;
 }
 
-
 .price-details {
   color: #777;
   padding-left: .3rem;
+}
+
+.buy-button-row {
+  margin-top: 1rem;
+}
+
+.buy-button-row p {
+  margin-bottom: .5rem;
 }
