@@ -1,6 +1,4 @@
-
-
-\@font-face {
+@font-face {
   font-family: "Walsheim Regular";
   src: url("../fonts/GT-Walsheim-Regular.woff2") format("woff2"), url("../fonts/GT-Walsheim-Regular.woff") format("woff");
 }
