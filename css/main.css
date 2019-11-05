@@ -254,6 +254,10 @@ input[type=image] {
   padding-left: .3rem;
 }
 
+#checkout-vis {
+    padding-bottom: 1rem;
+}
+
 .buy-button-row {
   margin-top: 1rem;
 }

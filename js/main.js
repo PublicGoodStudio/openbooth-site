@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 
   $(document).on('click', 'input', function (event) {
-    var total = 3900;
+    var total = 5800;
 
     if ($('input[name=door]:checked').val() === 'no-include') {
       total-=600;
@@ -33,9 +33,19 @@ $(document).ready(function() {
       total+=600;
     }
 
+    if ($('input[name=whiteboard]:checked').val() === 'include') {
+      total+=120;
+    }
+
+    if ($('input[name=no_desk]:checked').val() === 'include') {
+      total-=300;
+    }
+
     if ($('input[name=seating]:checked').val() !== 'no_seat') {
       total+=300;
     }
+
+
 
     $('.big-price').text('$' + parseFloat(total, 10).toFixed().replace(/(\d)(?=(\d{3})+)/g, "$1,").toString());
     $('.big-price').text('$' + parseFloat(total, 10).toFixed().replace(/(\d)(?=(\d{3})+)/g, "$1,").toString());

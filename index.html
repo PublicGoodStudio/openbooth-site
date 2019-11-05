@@ -271,14 +271,16 @@
         <h2>Buy a booth</h2>
       </div>
 
-      <div class="col-xs-12 col-sm-6">
-        <img src="img/booth-buy.jpg" alt="buy an openbooth">
+      <div class="col-xs-12 col-sm-6 ">
+        <img src="img/booth-buy.jpg" id="checkout-vis" alt="buy an openbooth">
+        <p>Lighting is standard on all booths. High-flow, quiet ventilation included with door option.</p>
+        <p>Complimentary delivery and installation in the San Francisco Bay Area.</p>
       </div>
       <div class="col-xs-12 col-sm-6">
         <p class="rb-label">Door</p>
         <fieldset>
           <input type="radio" name="door" id="door-include" value="include" class="form-radio" checked />
-          <label for="door-include">Sound isolating, double paned door</label>
+          <label for="door-include">Sound isolating, full-view door</label>
           <input type="radio" name="door" id="door-no-include" value="no-include"/>
           <label for="door-no-include">No door <span class="price-details">-$600</span></label>
         </fieldset>
@@ -291,6 +293,22 @@
           <label for="finish-walnut">Walnut <span class="price-details">+$600</span></label>
         </fieldset>
 
+        <p class="rb-label">Glass whiteboard</p>
+        <fieldset>
+          <input type="radio" name="whiteboard" id="whiteboard-no-whiteboard" value="no_whiteboard" checked />
+          <label for="whiteboard-no-whiteboard">No whiteboard</label>
+          <input type="radio" name="whiteboard" id="whiteboard-premium" value="include"/>
+          <label for="whiteboard-premium">Magnetic, glass whiteboard<span class="price-details">+$120</span></label>
+        </fieldset>
+
+        <p class="rb-label">Desk</p>
+        <fieldset>
+          <input type="radio" name="desk" id="desk-no" value="no_desk" />
+          <label for="desk-no">No desk<span class="price-details">-$300</span></label>
+          <input type="radio" name="desk" id="desk-include" value="include" checked />
+          <label for="desk-include">Hardwood desk</label>
+        </fieldset>
+
         <p class="rb-label">Seating</p>
         <fieldset>
           <input type="radio" name="seating" id="seating-no-seat" value="no_seat" checked />
@@ -298,13 +316,13 @@
           <input type="radio" name="seating" id="seating-blue" value="blue"/>
           <label for="seating-blue">Matching bar stool <span class="price-details">+$300</span></label>
         </fieldset>
-        <p class="big-price">$3,900</p>
+        <p class="big-price">$5,800</p>
       </div>
 
     </div>
     <div class="row side-desc buy-button-row">
       <div class="col-6">
-        <p>Lighting, ventilation, and a magnetic whiteboard are standard in all booths. Shipping included.</p>
+
       </div>
       <div class="col-6">
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -319,7 +337,7 @@
           <input type="hidden" name="no_shipping" value="2">
           <input type="hidden" name="undefined_quantity" value="1">
           <input type="hidden" name="currency_code" value="USD">
-          <input type="hidden" name="amount" value="3900.00">
+          <input type="hidden" name="amount" value="5800.00">
           <input type="hidden" name="bn" value="PP-BuyNowBF:ppbutton.png:NonHosted">
           <input type="image" src="https://s3.amazonaws.com/misc-img/ppbutton.png" border="0" name="submit" alt="Checkout with PayPal">
           <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
@@ -332,7 +350,7 @@
     <div class="row ">
       <div class="col-6">
         <p>Text and email</br>
-          <a href="tel:+1720-772-1525">720-772-1525</a></br>
+          <a href="tel:+1540-641-3467">540-641-3467</a></br>
           <a href="mailto:info@openbooth.store">info@openbooth.store</a></p>
       </div>
       <div class="col-6">
