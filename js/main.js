@@ -23,29 +23,27 @@ $(document).ready(function() {
 
 
   $(document).on('click', 'input', function (event) {
-    var total = 5800;
+    var total = 5700;
 
-    if ($('input[name=door]:checked').val() === 'no-include') {
-      total-=600;
+    if ($('input[name=whiteboard]:checked').val() === 'include') {
+      total+=150;
+    }
+
+    if ($('input[name=seating]:checked').val() !== 'no-include') {
+      total+=330;
     }
 
     if ($('input[name=finish]:checked').val() === 'walnut'){
-      total+=600;
+      total+=400;
     }
 
-    if ($('input[name=whiteboard]:checked').val() === 'include') {
-      total+=120;
+    if ($('input[name=desk]:checked').val() === 'no-include') {
+      total-=280;
     }
 
-    if ($('input[name=no_desk]:checked').val() === 'include') {
-      total-=300;
+    if ($('input[name=door]:checked').val() === 'no-include') {
+      total-=1300;
     }
-
-    if ($('input[name=seating]:checked').val() !== 'no_seat') {
-      total+=300;
-    }
-
-
 
     $('.big-price').text('$' + parseFloat(total, 10).toFixed().replace(/(\d)(?=(\d{3})+)/g, "$1,").toString());
     $('.big-price').text('$' + parseFloat(total, 10).toFixed().replace(/(\d)(?=(\d{3})+)/g, "$1,").toString());
