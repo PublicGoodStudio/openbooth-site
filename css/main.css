@@ -13,6 +13,8 @@ html {
   font-family: 'Walsheim Regular', sans-serif;
 }
 
+.top-buffer { margin-top:20px; }
+
 .body-container {
     max-width: 640px;
     margin: auto;
@@ -124,7 +126,11 @@ p {
 
 .big-paragraph {
   font-size: 1.2rem;
-  text-align: left;
+  text-align: center;
+}
+
+.big-header {
+  text-align: center;
 }
 
 .logo {
@@ -159,7 +165,7 @@ p {
 
 .logo-nav{
   font-family: 'Walsheim Medium', sans-serif;
-  font-size: 1.2rem;
+  font-size: 2.0rem;
 }
 
 .logo-nav:hover {
@@ -264,4 +270,10 @@ input[type=image] {
 
 .buy-button-row p {
   margin-bottom: .5rem;
+}
+
+.bg-img2 {
+  background-image:url('http://placehold.it/200x200/fc43c');
+  background-repeat:repeat-x;
+  background-size: 100%;
 }
