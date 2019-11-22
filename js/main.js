@@ -5,23 +5,6 @@ $(document).on('click', 'a[href^="#"]', function (event) {
   }, 200);
 });
 
-// Hide the nav bar if we're at the top of the page
-$(document).ready(function() {
-  var nav = $('.navbar');
-  nav.hide();
-  $(function () {
-      $(window).scroll(function () {
-          if ($(this).scrollTop() > 30) {
-              nav.fadeIn(200);
-          } else {
-              nav.fadeOut(300);
-          }
-      });
-    });
-  });
-
-
-
   $(document).on('click', 'input', function (event) {
     var total = 5700;
 
