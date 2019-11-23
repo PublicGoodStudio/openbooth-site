@@ -271,9 +271,3 @@ input[type=image] {
 .buy-button-row p {
   margin-bottom: .5rem;
 }
-
-.bg-img2 {
-  background-image:url('http://placehold.it/200x200/fc43c');
-  background-repeat:repeat-x;
-  background-size: 100%;
-}
