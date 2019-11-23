@@ -178,6 +178,7 @@ p {
 }
 
 .logo-nav{
+  padding-left: 0rem;
   font-family: 'Walsheim Medium', sans-serif;
   font-size: 1.5rem;
 }
