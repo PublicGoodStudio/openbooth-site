@@ -16,7 +16,7 @@ html {
 .top-buffer { margin-top:20px; }
 
 .body-container {
-    max-width: 640px;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -51,6 +51,18 @@ video {
   background:#ee2348;
   color: #fff;
   text-decoration: none;
+}
+.spec-button {
+  cursor: pointer;
+  border: 2px #ee2348 solid;
+  border-radius: 0;
+  background: #fff;
+  color: #ee2348;
+  margin-bottom:6rem;
+  margin-top:1rem;
+  padding: .8rem;
+  font-family: 'Walsheim Medium', sans-serif;
+  font-size: 1.2rem;
 }
 
 .button_container {
