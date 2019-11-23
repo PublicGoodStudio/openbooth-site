@@ -1,6 +1,3 @@
-
-
-
 // Smooth scroll to section headings
 $(document).on('click', 'a[href^="#"]', function (event) {
   $('html, body').animate({
@@ -36,10 +33,3 @@ $(document).on('click', 'a[href^="#"]', function (event) {
     $('input[name=amount]').val(total);
 
   });
-  
-  $(function() {
-    $('.pop').on('click', function() {
-        $('.imagepreview').attr('src', $(this).find('img').attr('src'));
-        $('#imagemodal').modal('show');   
-    });     
-});
