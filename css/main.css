@@ -52,6 +52,18 @@ video {
   color: #fff;
   text-decoration: none;
 }
+.spec-button {
+  cursor: pointer;
+  border: 2px #ee2348 solid;
+  border-radius: 0;
+  background: #fff;
+  color: #ee2348;
+  margin-bottom:6rem;
+  margin-top:1rem;
+  padding: .8rem;
+  font-family: 'Walsheim Medium', sans-serif;
+  font-size: 1.2rem;
+}
 
 .button_container {
   margin-bottom: 2rem;
