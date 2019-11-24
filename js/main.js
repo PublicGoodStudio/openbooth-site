@@ -6,14 +6,10 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 });
 
   $(document).on('click', 'input', function (event) {
-    var total = 5700;
+    var total = 5370;
 
     if ($('input[name=whiteboard]:checked').val() === 'include') {
       total+=150;
-    }
-
-    if ($('input[name=seating]:checked').val() !== 'no-include') {
-      total+=330;
     }
 
     if ($('input[name=finish]:checked').val() === 'walnut'){
