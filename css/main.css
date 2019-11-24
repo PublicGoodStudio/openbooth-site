@@ -286,3 +286,9 @@ input[type=image] {
 .buy-button-row p {
   margin-bottom: .5rem;
 }
+
+section {padding:2rem;}
+.bg-sky {background-color:#b6e2e9;color:#fff;}
+.bg-french-vanilla {background-color:#fcf3b0;}
+.bg-gray {background-color:#cccccc;}
+.bg-summer-nights {background-color:#15133f;}
