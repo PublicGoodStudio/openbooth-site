@@ -6,7 +6,7 @@ $(document).on('click', 'a[href^="#"]', function (event) {
 });
 
   $(document).on('click', 'input', function (event) {
-    var total = 5370;
+    var total = 5700;
 
     if ($('input[name=whiteboard]:checked').val() === 'include') {
       total+=150;
