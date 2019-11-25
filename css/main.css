@@ -157,13 +157,8 @@ p {
   background-color: #b6e2e9;
 }
 
-.contact-footer p {
-  text-align: center;
-}
-
 .contact-footer .row {
   padding-top: 1rem;
-  max-width: 640px;
   margin: auto;
   margin-top: 10rem;
 }
@@ -292,3 +287,4 @@ section {padding:2rem;}
 .bg-french-vanilla {background-color:#fcf3b0;}
 .bg-gray {background-color:#cccccc;}
 .bg-summer-nights {background-color:#15133f;}
+
